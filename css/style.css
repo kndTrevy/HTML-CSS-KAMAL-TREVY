@@ -1,0 +1,13 @@
+header {
+  position: fixed;
+  top: 0;
+  display: flex;
+  min-height: 75px;
+  width: 100vw;
+}
+
+@media (max-with: 640px) {
+  header {
+    flex-wrap: wrap;
+  }
+}
